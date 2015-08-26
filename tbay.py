@@ -53,6 +53,9 @@ ben = User(name="ben", password="test", items=['baseball'])
 sam = User(name="sam", password="demo", )
 tom = User(name="tom", password="1234")
 
+sam.bid.pointPrice = 12
+
+
 baseball = Item(name="baseball", bidderId=([sam.id,tom.id]))
 
 
