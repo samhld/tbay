@@ -32,9 +32,7 @@ class Bid(Base):
     id = Column(Integer, primary_key=True)
     pointPrice = Column(Float, nullable=False)
     
-    
-    
+
+Base.metadata.create_all(engine)    
     
 
-
-Base.metadata.create_all(engine)
